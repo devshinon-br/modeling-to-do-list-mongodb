@@ -11,7 +11,9 @@
         "user": {
           "name": "John Doe",
           "role": "Project Manager"
-        }
+        },
+        "dueDate": "30/11/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -20,9 +22,17 @@
         "user": {
           "name": "Jane Smith",
           "role": "Developer"
-        }
+        },
+        "dueDate": "10/12/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/10/2023",
+    "updatedAt": "05/10/2023"
   },
   {
     "name": "Project B",
@@ -36,7 +46,9 @@
         "user": {
           "name": "Bob Johnson",
           "role": "Research Analyst"
-        }
+        },
+        "dueDate": "20/09/2023",
+        "priority": "Medium"
       },
       {
         "title": "Task 2",
@@ -45,9 +57,17 @@
         "user": {
           "name": "Alice Williams",
           "role": "Technical Writer"
-        }
+        },
+        "dueDate": "05/10/2023",
+        "priority": "High"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "02/09/2023",
+    "updatedAt": "06/09/2023"
   },
   {
     "name": "Project C",
@@ -61,7 +81,9 @@
         "user": {
           "name": "Eva Davis",
           "role": "Project Analyst"
-        }
+        },
+        "dueDate": "10/05/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -70,9 +92,17 @@
         "user": {
           "name": "Tom Robinson",
           "role": "Training Specialist"
-        }
+        },
+        "dueDate": "25/05/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/03/2023",
+    "updatedAt": "05/03/2023"
   },
   {
     "name": "Project D",
@@ -86,7 +116,9 @@
         "user": {
           "name": "Sara Johnson",
           "role": "Marketing Manager"
-        }
+        },
+        "dueDate": "15/09/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -95,9 +127,17 @@
         "user": {
           "name": "Mike Anderson",
           "role": "Graphic Designer"
-        }
+        },
+        "dueDate": "20/09/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "05/08/2023",
+    "updatedAt": "09/08/2023"
   },
   {
     "name": "Project E",
@@ -111,7 +151,9 @@
         "user": {
           "name": "Laura White",
           "role": "Client Relations Manager"
-        }
+        },
+        "dueDate": "20/08/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -120,9 +162,17 @@
         "user": {
           "name": "Chris Taylor",
           "role": "Client Experience Specialist"
-        }
+        },
+        "dueDate": "10/09/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/06/2023",
+    "updatedAt": "10/06/2023"
   },
   {
     "name": "Project F",
@@ -136,7 +186,9 @@
         "user": {
           "name": "Alex Miller",
           "role": "Technology Analyst"
-        }
+        },
+        "dueDate": "10/02/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -145,9 +197,17 @@
         "user": {
           "name": "Emily Clark",
           "role": "Software Engineer"
-        }
+        },
+        "dueDate": "28/02/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "10/01/2023",
+    "updatedAt": "15/01/2023"
   },
   {
     "name": "Project G",
@@ -161,7 +221,9 @@
         "user": {
           "name": "Mark Thompson",
           "role": "Business Analyst"
-        }
+        },
+        "dueDate": "15/06/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -170,9 +232,17 @@
         "user": {
           "name": "Sophia Wilson",
           "role": "Stakeholder Relations Manager"
-        }
+        },
+        "dueDate": "20/06/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/04/2023",
+    "updatedAt": "10/04/2023"
   },
   {
     "name": "Project H",
@@ -186,7 +256,9 @@
         "user": {
           "name": "Daniel Garcia",
           "role": "Project Scheduler"
-        }
+        },
+        "dueDate": "15/04/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -195,9 +267,17 @@
         "user": {
           "name": "Mia Rodriguez",
           "role": "Team Coordinator"
-        }
+        },
+        "dueDate": "10/04/2023",
+        "priority": "Low"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/02/2023",
+    "updatedAt": "10/02/2023"
   },
   {
     "name": "Project I",
@@ -211,7 +291,9 @@
         "user": {
           "name": "Oliver Martinez",
           "role": "Risk Analyst"
-        }
+        },
+        "dueDate": "10/01/2024",
+        "priority": "Medium"
       },
       {
         "title": "Task 2",
@@ -220,9 +302,17 @@
         "user": {
           "name": "Isabella Brown",
           "role": "Risk Manager"
-        }
+        },
+        "dueDate": "05/01/2024",
+        "priority": "High"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "15/11/2023",
+    "updatedAt": "25/11/2023"
   },
   {
     "name": "Project J",
@@ -236,7 +326,9 @@
         "user": {
           "name": "William Lee",
           "role": "Financial Analyst"
-        }
+        },
+        "dueDate": "30/10/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -245,9 +337,17 @@
         "user": {
           "name": "Ava Taylor",
           "role": "Resource Manager"
-        }
+        },
+        "dueDate": "15/11/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/08/2023",
+    "updatedAt": "10/08/2023"
   },
   {
     "name": "Project K",
@@ -261,7 +361,9 @@
         "user": {
           "name": "Liam Moore",
           "role": "Market Analyst"
-        }
+        },
+        "dueDate": "15/06/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -270,9 +372,17 @@
         "user": {
           "name": "Ella Davis",
           "role": "Product Manager"
-        }
+        },
+        "dueDate": "20/07/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/03/2023",
+    "updatedAt": "10/03/2023"
   },
   {
     "name": "Project L",
@@ -286,7 +396,9 @@
         "user": {
           "name": "James Wilson",
           "role": "UI/UX Designer"
-        }
+        },
+        "dueDate": "05/04/2023",
+        "priority": "Medium"
       },
       {
         "title": "Task 2",
@@ -295,9 +407,17 @@
         "user": {
           "name": "Aria Thompson",
           "role": "Front-end Developer"
-        }
+        },
+        "dueDate": "10/04/2023",
+        "priority": "High"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "15/01/2023",
+    "updatedAt": "25/01/2023"
   },
   {
     "name": "Project M",
@@ -311,7 +431,9 @@
         "user": {
           "name": "Logan Johnson",
           "role": "Project Planner"
-        }
+        },
+        "dueDate": "10/02/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -320,9 +442,17 @@
         "user": {
           "name": "Grace Miller",
           "role": "Infrastructure Specialist"
-        }
+        },
+        "dueDate": "20/02/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "05/11/2022",
+    "updatedAt": "15/11/2022"
   },
   {
     "name": "Project N",
@@ -336,7 +466,9 @@
         "user": {
           "name": "Jack Davis",
           "role": "Project Planner"
-        }
+        },
+        "dueDate": "15/12/2023",
+        "priority": "Low"
       },
       {
         "title": "Task 2",
@@ -345,9 +477,17 @@
         "user": {
           "name": "Sophie Wilson",
           "role": "Presentation Specialist"
-        }
+        },
+        "dueDate": "20/12/2023",
+        "priority": "High"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/08/2023",
+    "updatedAt": "10/08/2023"
   },
   {
     "name": "Project O",
@@ -361,7 +501,9 @@
         "user": {
           "name": "Mason Taylor",
           "role": "Project Analyst"
-        }
+        },
+        "dueDate": "05/09/2023",
+        "priority": "Medium"
       },
       {
         "title": "Task 2",
@@ -370,9 +512,17 @@
         "user": {
           "name": "Scarlett Davis",
           "role": "Training Specialist"
-        }
+        },
+        "dueDate": "15/09/2023",
+        "priority": "High"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/04/2023",
+    "updatedAt": "15/04/2023"
   },
   {
     "name": "Project P",
@@ -386,7 +536,9 @@
         "user": {
           "name": "Lucas Martin",
           "role": "Technology Analyst"
-        }
+        },
+        "dueDate": "10/06/2023",
+        "priority": "Medium"
       },
       {
         "title": "Task 2",
@@ -395,9 +547,17 @@
         "user": {
           "name": "Zoe White",
           "role": "Software Engineer"
-        }
+        },
+        "dueDate": "20/06/2023",
+        "priority": "High"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "15/12/2022",
+    "updatedAt": "30/12/2022"
   },
   {
     "name": "Project Q",
@@ -411,7 +571,9 @@
         "user": {
           "name": "Nathan Smith",
           "role": "Marketing Manager"
-        }
+        },
+        "dueDate": "15/03/2023",
+        "priority": "Low"
       },
       {
         "title": "Task 2",
@@ -420,9 +582,17 @@
         "user": {
           "name": "Emma Anderson",
           "role": "Graphic Designer"
-        }
+        },
+        "dueDate": "25/03/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/10/2022",
+    "updatedAt": "15/10/2022"
   },
   {
     "name": "Project R",
@@ -436,7 +606,9 @@
         "user": {
           "name": "Lily Brown",
           "role": "Client Relations Manager"
-        }
+        },
+        "dueDate": "10/01/2024",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -445,9 +617,17 @@
         "user": {
           "name": "Caleb Taylor",
           "role": "Client Experience Specialist"
-        }
+        },
+        "dueDate": "20/01/2024",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "05/07/2023",
+    "updatedAt": "15/07/2023"
   },
   {
     "name": "Project S",
@@ -461,7 +641,9 @@
         "user": {
           "name": "Hazel Garcia",
           "role": "Business Analyst"
-        }
+        },
+        "dueDate": "10/11/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -470,9 +652,17 @@
         "user": {
           "name": "Ethan Wilson",
           "role": "Stakeholder Relations Manager"
-        }
+        },
+        "dueDate": "20/11/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "15/05/2023",
+    "updatedAt": "30/05/2023"
   },
   {
     "name": "Project T",
@@ -486,7 +676,9 @@
         "user": {
           "name": "Mila Rodriguez",
           "role": "Project Scheduler"
-        }
+        },
+        "dueDate": "15/07/2023",
+        "priority": "Low"
       },
       {
         "title": "Task 2",
@@ -495,9 +687,17 @@
         "user": {
           "name": "Noah Martinez",
           "role": "Team Coordinator"
-        }
+        },
+        "dueDate": "25/07/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/01/2023",
+    "updatedAt": "15/01/2023"
   },
   {
     "name": "Project U",
@@ -511,7 +711,9 @@
         "user": {
           "name": "Owen Brown",
           "role": "Risk Analyst"
-        }
+        },
+        "dueDate": "10/05/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -520,9 +722,17 @@
         "user": {
           "name": "Aurora White",
           "role": "Risk Manager"
-        }
+        },
+        "dueDate": "20/05/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "15/11/2022",
+    "updatedAt": "30/11/2022"
   },
   {
     "name": "Project V",
@@ -536,7 +746,9 @@
         "user": {
           "name": "Ethan Lee",
           "role": "Financial Analyst"
-        }
+        },
+        "dueDate": "15/02/2023",
+        "priority": "Low"
       },
       {
         "title": "Task 2",
@@ -545,9 +757,17 @@
         "user": {
           "name": "Ava Taylor",
           "role": "Resource Manager"
-        }
+        },
+        "dueDate": "20/02/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "05/08/2022",
+    "updatedAt": "20/08/2022"
   },
   {
     "name": "Project W",
@@ -561,7 +781,9 @@
         "user": {
           "name": "Elijah Moore",
           "role": "Market Analyst"
-        }
+        },
+        "dueDate": "10/10/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -570,9 +792,17 @@
         "user": {
           "name": "Ava Davis",
           "role": "Product Manager"
-        }
+        },
+        "dueDate": "25/11/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/04/2023",
+    "updatedAt": "15/04/2023"
   },
   {
     "name": "Project X",
@@ -586,7 +816,9 @@
         "user": {
           "name": "Evan Wilson",
           "role": "UI/UX Designer"
-        }
+        },
+        "dueDate": "10/08/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -595,9 +827,17 @@
         "user": {
           "name": "Sophia Brown",
           "role": "Front-end Developer"
-        }
+        },
+        "dueDate": "20/08/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "15/02/2023",
+    "updatedAt": "28/02/2023"
   },
   {
     "name": "Project Y",
@@ -611,7 +851,9 @@
         "user": {
           "name": "Eli Johnson",
           "role": "Project Planner"
-        }
+        },
+        "dueDate": "15/05/2023",
+        "priority": "Low"
       },
       {
         "title": "Task 2",
@@ -620,9 +862,17 @@
         "user": {
           "name": "Avery Martinez",
           "role": "Infrastructure Specialist"
-        }
+        },
+        "dueDate": "25/05/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/12/2022",
+    "updatedAt": "15/12/2022"
   },
   {
     "name": "Project Z",
@@ -636,7 +886,9 @@
         "user": {
           "name": "Leo Davis",
           "role": "Project Planner"
-        }
+        },
+        "dueDate": "10/12/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
@@ -645,9 +897,17 @@
         "user": {
           "name": "Luna Wilson",
           "role": "Presentation Specialist"
-        }
+        },
+        "dueDate": "20/12/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "15/06/2023",
+    "updatedAt": "30/06/2023"
   },
   {
     "name": "Project AA",
@@ -661,7 +921,9 @@
         "user": {
           "name": "Mateo Taylor",
           "role": "Project Analyst"
-        }
+        },
+        "dueDate": "10/09/2023",
+        "priority": "Low"
       },
       {
         "title": "Task 2",
@@ -670,9 +932,17 @@
         "user": {
           "name": "Stella Davis",
           "role": "Training Specialist"
-        }
+        },
+        "dueDate": "20/09/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/05/2023",
+    "updatedAt": "15/05/2023"
   },
   {
     "name": "Project BB",
@@ -686,67 +956,97 @@
         "user": {
           "name": "Zachary Smith",
           "role": "Market Analyst"
-        }
+        },
+        "dueDate": "15/06/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
-        "description": "Create product roadmap",
+        "description": "Develop product prototypes",
         "status": "In Progress",
         "user": {
-          "name": "Hannah Anderson",
-          "role": "Product Manager"
-        }
+          "name": "Lily Davis",
+          "role": "Product Designer"
+        },
+        "dueDate": "20/06/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "05/01/2023",
+    "updatedAt": "20/01/2023"
   },
   {
     "name": "Project CC",
-    "startDate": "01/03/2023",
-    "endDate": "15/04/2023",
+    "startDate": "15/07/2023",
+    "endDate": "30/08/2023",
     "tasks": [
       {
         "title": "Task 1",
-        "description": "Design user interface",
+        "description": "Define project objectives",
         "status": "Pending",
         "user": {
-          "name": "Carter Wilson",
-          "role": "UI/UX Designer"
-        }
+          "name": "Olivia Wilson",
+          "role": "Project Manager"
+        },
+        "dueDate": "10/08/2023",
+        "priority": "High"
       },
       {
         "title": "Task 2",
-        "description": "Code front-end functionalities",
+        "description": "Assemble project team",
         "status": "In Progress",
         "user": {
-          "name": "Isaac Brown",
-          "role": "Front-end Developer"
-        }
+          "name": "Carter Martin",
+          "role": "HR Specialist"
+        },
+        "dueDate": "20/08/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "01/02/2023",
+    "updatedAt": "15/02/2023"
   },
   {
     "name": "Project DD",
-    "startDate": "15/01/2023",
-    "endDate": "28/02/2023",
+    "startDate": "01/09/2023",
+    "endDate": "15/10/2023",
     "tasks": [
       {
         "title": "Task 1",
-        "description": "Define project goals",
+        "description": "Research market trends",
         "status": "Completed",
         "user": {
-          "name": "Eva Davis",
-          "role": "Project Planner"
-        }
+          "name": "Aiden Johnson",
+          "role": "Market Researcher"
+        },
+        "dueDate": "10/10/2023",
+        "priority": "Low"
       },
       {
         "title": "Task 2",
-        "description": "Set up project infrastructure",
+        "description": "Develop project timeline",
         "status": "In Progress",
         "user": {
-          "name": "Oscar Martinez",
-          "role": "Infrastructure Specialist"
-        }
+          "name": "Zoe White",
+          "role": "Project Scheduler"
+        },
+        "dueDate": "25/10/2023",
+        "priority": "Medium"
       }
-    ]
+    ],
+    "createdBy": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "createdAt": "15/03/2023",
+    "updatedAt": "30/03/2023"
   }
 ]

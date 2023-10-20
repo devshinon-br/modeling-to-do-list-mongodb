@@ -14,11 +14,11 @@ O nome do projeto é uma string que identifica o projeto. Deve ser um nome curto
 
 ### Data de início do projeto
 
-A data de início do projeto é uma string no formato "dd/mm/yyyy" que indica a data em que o projeto começou.
+A data de início do projeto é uma string no formato "yyyy-mm-dd" que indica a data em que o projeto começou.
 
 ### Data de término do projeto
 
-A data de término do projeto é uma string no formato "dd/mm/yyyy" que indica a data em que o projeto deve ser concluído.
+A data de término do projeto é uma string no formato "yyyy-mm-dd" que indica a data em que o projeto deve ser concluído.
 
 ### Lista de tarefas
 
@@ -56,7 +56,7 @@ As informações sobre o usuário responsável pela tarefa são um objeto que po
 
 ### Data de vencimento da tarefa
 
-A data de vencimento da tarefa é uma string no formato "dd/mm/yyyy" que indica a data em que a tarefa deve ser concluída.
+A data de vencimento da tarefa é uma string no formato "yyyy-mm-dd" que indica a data em que a tarefa deve ser concluída.
 
 ### Prioridade da tarefa
 
@@ -75,11 +75,11 @@ As informações sobre o criador do projeto são um objeto que possui os seguint
 
 ### Data de criação do projeto
 
-A data de criação do projeto é uma string no formato "dd/mm/yyyy" que indica a data em que o projeto foi criado.
+A data de criação do projeto é uma string no formato "yyyy-mm-dd" que indica a data em que o projeto foi criado.
 
 ### Data da última atualização do projeto
 
-A data da última atualização do projeto é uma string no formato "dd/mm/yyyy" que indica a data em que o projeto foi atualizado pela última vez.
+A data da última atualização do projeto é uma string no formato "yyyy-mm-dd" que indica a data em que o projeto foi atualizado pela última vez.
 
 ## Exemplo de projeto
 
@@ -87,8 +87,8 @@ Aqui está um exemplo de projeto:
 
 ```json {
   "name": "Projeto A",
-  "startDate": "15/11/2023",
-  "endDate": "20/12/2023",
+  "startDate": "2023-01-02",
+  "endDate": "2023-01-29",
   "tasks": [
     {
       "title": "Tarefa 1",
@@ -98,7 +98,7 @@ Aqui está um exemplo de projeto:
         "name": "John Doe",
         "role": "Project Manager"
       },
-      "dueDate": "30/11/2023",
+      "dueDate": "2023-01-25",
       "priority": "Alta"
     }
   ],
@@ -106,6 +106,6 @@ Aqui está um exemplo de projeto:
     "name": "Admin",
     "role": "Administrator"
   },
-  "createdAt": "01/10/2023",
-  "updatedAt": "05/10/2023"
+  "createdAt": "2022-10-10",
+  "updatedAt": "2023-01-26"
 }

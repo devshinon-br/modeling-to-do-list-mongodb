@@ -1,0 +1,75 @@
+{
+    "name": "projects",
+    "fields": [
+      {
+        "name": "name"
+      },
+      {
+        "name": "startDate"
+      },
+      {
+        "name": "endDate"
+      },
+      {
+        "name": "tasks",
+        "type": "array",
+        "schema": {
+          "type": "object",
+          "fields": [
+            {
+              "name": "title"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "user",
+              "type": "object",
+              "schema": {
+                "type": "object",
+                "fields": [
+                  {
+                    "name": "name"
+                  },
+                  {
+                    "name": "role"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "dueDate"
+            },
+            {
+              "name": "priority"
+            }
+          ]
+        }
+      },
+      {
+        "name": "createdBy",
+        "type": "object",
+        "schema": {
+          "type": "object",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "role"
+            }
+          ]
+        }
+      },
+      {
+        "name": "createdAt"
+      },
+      {
+        "name": "updatedAt"
+      }
+    ]
+  }
+  

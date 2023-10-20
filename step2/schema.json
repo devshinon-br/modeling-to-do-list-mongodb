@@ -1,0 +1,108 @@
+{
+    "name": "projects",
+    "fields": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "startDate",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "endDate",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "tasks",
+        "type": "array",
+        "required": true,
+        "schema": {
+          "type": "object",
+          "fields": [
+            {
+              "name": "title",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "description",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "status",
+              "type": "string",
+              "required": true,
+              "enum": ["In Progress", "Pending", "Completed"]
+            },
+            {
+              "name": "user",
+              "type": "object",
+              "required": true,
+              "schema": {
+                "type": "object",
+                "fields": [
+                  {
+                    "name": "name",
+                    "type": "string",
+                    "required": true
+                  },
+                  {
+                    "name": "role",
+                    "type": "string",
+                    "required": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "dueDate",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "priority",
+              "type": "string",
+              "required": true,
+              "enum": ["High", "Medium", "Low"]
+            }
+          ]
+        }
+      },
+      {
+        "name": "createdBy",
+        "type": "object",
+        "required": true,
+        "schema": {
+          "type": "object",
+          "fields": [
+            {
+              "name": "name",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "role",
+              "type": "string",
+              "required": true
+            }
+          ]
+        }
+      },
+      {
+        "name": "createdAt",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "updatedAt",
+        "type": "string",
+        "required": true
+      }
+    ]
+  }
+  
